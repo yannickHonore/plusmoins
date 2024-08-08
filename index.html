@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu du plus ou moins</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js" defer ></script>
+</head>
+<body>
+  <h1>Jeu du plus ou moins</h1>
+  <section>
+    <div id="startButtons">
+      <button type="button" id="0-1000" data-max="1000">Démarrer partie 0 - 1 000</button>
+      <button type="button" id="0-1000000" data-max="1000000">Démarrer partie 0 - 1 000 000</button>
+      <button type="button" id="0-1000000000" data-max="1000000000">Démarrer partie 0 - 1 000 000 000</button>
+    </div>
+    <form id="form">
+      <input type="number" min="0" max="0" name="value" id="value">
+      <button type="submit" id="submit">Vérifier</button>
+      <button type="reset" id="cancel">Abandonnée</button>
+    </form>
+  </section>
+  <section id="indice"></section>
+  <section id="oldValue">
+    <h3>Vous avez proposé</h3>
+    <div id="proposition"></div>
+  </section>
+</body>
+</html>

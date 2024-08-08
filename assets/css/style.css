@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  width: 50%;
+  margin: auto;
+}
+
+section div#startButtons{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#form{
+  display: none;
+  width: 60%;
+  margin: auto;
+}
+
+#form input, #form button{
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+#indice{
+  text-align: center;
+  margin-top : 2rem;
+}
+
+#oldValue{
+  margin-top: 2rem;
+  display: none;
+}
+
+#oldValue h3{
+  text-align: center;
+}
+
+#proposition{
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
