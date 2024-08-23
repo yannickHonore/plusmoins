@@ -17,6 +17,9 @@ function startGame(e){
   // On va chercher la valeur max
   let max = e.target.dataset.max;
 
+  // On affiche la valeur max que l'on doit trouver
+  document.querySelector("#max").innerText = max;
+
   // On défini la valeur max qui peut etre entré dans le formulaire
   document.querySelector("#value").setAttribute("max", max);
 
@@ -199,7 +202,7 @@ class Game{
     let indice = document.querySelector("#indice");
 
     // On affiche le message
-    indice.innerText = `Bravo, vous avez trouver la bonne valeur ${this.#find} en ${this.#essai} essais`;
+    indice.innerText = `Bravo, vous avez trouvé la bonne valeur "${this.#find}" en ${this.#essai} essais`;
   }
 
   /**

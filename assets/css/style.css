@@ -17,6 +17,7 @@ section div#startButtons{
   margin: auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #form{
